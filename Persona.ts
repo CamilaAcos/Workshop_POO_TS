@@ -1,4 +1,4 @@
-class Persona {
+export class Persona {
 name: string
 age: number
 
