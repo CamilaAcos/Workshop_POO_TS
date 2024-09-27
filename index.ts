@@ -1,28 +1,7 @@
 import { Persona } from "./Persona"
+import {Empleado} from "./Empleado"
 
-const Persona1 = new Persona ("Jose", 52)
-const Persona2 = new Persona ("Laura", 25)
-const Persona3 = new Persona ("Andrea", 29)
-const Persona4 = new Persona ("Alejandro", 30)
-const Persona5 = new Persona ("Eliana", 35)
-const Persona6 = new Persona ("Julio", 33)
-const Persona7 = new Persona ("Valeria", 27)
-const Persona8 = new Persona ("Santiago", 39)
-const Persona9 = new Persona ("Samuel", 32)
-const Persona10 = new Persona ("Sara", 40)
-
-Persona1.saludar()
-Persona2.saludar()
-Persona3.saludar()
-Persona4.saludar()
-Persona5.saludar()
-Persona6.saludar()
-Persona7.saludar()
-Persona8.saludar()
-Persona9.saludar()
-Persona10.saludar()
-
-/*const personas = [
+const personas: Persona[] = [
     new Persona("Jose", 52),
     new Persona("Laura", 25),
     new Persona("Andrea", 29),
@@ -35,4 +14,18 @@ Persona10.saludar()
     new Persona("Sara", 40),
   ]
   
-  personas.forEach(persona => persona.saludar())*/
+  personas.forEach(persona => persona.saludar())
+
+  const empleados: Empleado[] = [
+    new Empleado("Jose", 52, 6000000),
+    new Empleado("Laura", 25, 3500000),
+    new Empleado("Andrea", 29, 4000000),
+    new Empleado("Alejandro", 30, 5000000),
+    new Empleado("Eliana", 35, 4000000),
+    new Empleado("Julio", 33, 4300000),
+    new Empleado("Valeria", 27, 3300000),
+    new Empleado("Santiago", 39, 4500000),
+    new Empleado("Samuel", 32, 4100000),
+    new Empleado("Sara", 40, 5000000),
+  ]
+  empleados.forEach(empleado => empleado.saludar())

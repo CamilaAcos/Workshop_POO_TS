@@ -1,17 +1,17 @@
 export class Persona {
-name: string
-private age: number
+nombre: string
+private edad: number
 
-constructor(name:string, age:number){
-    this.name = name
-    this.age = age   
+constructor(nombre:string, edad:number){
+    this.nombre = nombre
+    this.edad = edad 
 
 }
 saludar():void {
-console.log(`Persona: Tu nombre es ${this.name} y tienes ${this.age} años`)
+console.log(`Persona: Tu nombre es ${this.nombre} y tienes ${this.edad} años`)
 }
 
-getAge(): number {
-    return this.age
+getedad(): number {
+    return this.edad
 }
 }

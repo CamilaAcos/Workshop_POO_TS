@@ -1,11 +1,11 @@
 import { Persona } from "./Persona"
-class Empleado extends Persona {
+export class Empleado extends Persona {
  
-    salary: number
+    salario: number
 
- constructor (salary: number, edad: number, nombre: string){
+ constructor (nombre: string, edad: number, salario: number){
     super(nombre , edad)
-    this.salary = salary 
+    this.salario = salario
 
  }
  
@@ -15,6 +15,6 @@ class Empleado extends Persona {
  }
 
  override saludar(): void{
-    console.log(`Hola ${this.name} tu edad es ${this.getAge} y el salario es de ${this.salary}`)
+    console.log(`Hola ${this.nombre} tu edad es ${this.getedad()} y el salario es de ${this.salario}`)
  }
 }
