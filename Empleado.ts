@@ -14,5 +14,7 @@ class Empleado extends Persona {
     console.log(`Las horas trabajadas en el día son ${horas}`)
  }
 
- 
+ override saludar(): void{
+    console.log(`Hola ${this.name} tu edad es ${this.getAge} y el salario es de ${this.salary}`)
+ }
 }
