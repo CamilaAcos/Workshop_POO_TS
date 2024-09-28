@@ -1,17 +1,22 @@
+import { Direccion } from "./Direccion"
 export class Persona {
-nombre: string
-private edad: number
 
-constructor(nombre:string, edad:number){
-    this.nombre = nombre
-    this.edad = edad 
+    nombre: string
+    private edad: number
+    direccion: Direccion
 
-}
-saludar():void {
-console.log(`Persona: Tu nombre es ${this.nombre} y tienes ${this.edad} años`)
-}
+    constructor(nombre: string, edad: number, direccion: Direccion) {
+        this.nombre = nombre
+        this.edad = edad
+        this.direccion = direccion 
+        
+    }
+    
+    saludar(): void {
+        console.log(`Persona: Tu nombre es ${this.nombre} y tienes ${this.edad} años`)
+    }
 
-getedad(): number {
-    return this.edad
-}
+    getedad(): number {
+        return this.edad
+    }
 }
