@@ -1,6 +1,7 @@
 import { Persona } from "./Persona"
 import { Empleado } from "./Empleado"
 import { Direccion } from "./Direccion"
+import { crearPersona } from "./util"
 
 const direccionesPersonas: Direccion[] = [
 
@@ -60,3 +61,6 @@ const empleados: Empleado[] = [
   new Empleado("Karla", 40, 5000000, direccionesEmpleados[9]),
 ]
 empleados.forEach(empleado => {empleado.saludar(), empleado.direccion.imprimirCiudad()})
+
+
+crearPersona();
