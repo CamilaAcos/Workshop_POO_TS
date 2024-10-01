@@ -5,6 +5,7 @@ import { crearPersona } from "./util"
 import { Vehiculo } from "./Vehiculo"
 import { Coche } from "./Vehiculo"
 import { Moto } from "./Vehiculo"
+import { EstadoCivil } from "./EstadoCivil"
 
 
 const direccionesPersonas: Direccion[] = [
@@ -28,16 +29,16 @@ const moto1 = new Moto("JP54Q");
 const moto2 = new Moto ("PCU3F5");
 
 const personas: Persona[] = [
-  new Persona("Jose", 52, direccionesPersonas[0], [carro1]),
-  new Persona("Laura", 25, direccionesPersonas[1], [moto1]),
-  new Persona("Andrea", 29, direccionesPersonas[2], [carro2, moto1]),
-  new Persona("Alejandro", 30, direccionesPersonas[3], [carro1]),
-  new Persona("Eliana", 35, direccionesPersonas[4], [moto1]),
-  new Persona("Julio", 33, direccionesPersonas[5], [carro2]),
-  new Persona("Valeria", 27, direccionesPersonas[6], [moto2]),
-  new Persona("Santiago", 39, direccionesPersonas[7], [moto1]),
-  new Persona("Samuel", 32, direccionesPersonas[8], [moto2]),
-  new Persona("Sara", 40, direccionesPersonas[9], [carro1, moto2]),
+  new Persona("Jose", 52, direccionesPersonas[0], [carro1], EstadoCivil.CASADO),
+  new Persona("Laura", 25, direccionesPersonas[1], [moto1], EstadoCivil.SOLTERO),
+  new Persona("Andrea", 29, direccionesPersonas[2], [carro2, moto1], EstadoCivil.DIVORSIADO),
+  new Persona("Alejandro", 30, direccionesPersonas[3], [carro1], EstadoCivil.UNION_LIBRE ),
+  new Persona("Eliana", 35, direccionesPersonas[4], [moto1], EstadoCivil.CASADO),
+  new Persona("Julio", 33, direccionesPersonas[5], [carro2], EstadoCivil.SOLTERO),
+  new Persona("Valeria", 27, direccionesPersonas[6], [moto2], EstadoCivil.SOLTERO),
+  new Persona("Santiago", 39, direccionesPersonas[7], [moto1], EstadoCivil.CASADO),
+  new Persona("Samuel", 32, direccionesPersonas[8], [moto2], EstadoCivil.SOLTERO),
+  new Persona("Sara", 40, direccionesPersonas[9], [carro1, moto2], EstadoCivil.CASADO),
 ]
 
 personas.forEach(persona =>{persona.saludar(),persona.direccion.imprimirCiudad()})
@@ -57,16 +58,16 @@ const direccionesEmpleados: Direccion[] = [
 
 ]
 const empleados: Empleado[] = [
-  new Empleado("Andres", 52, 6000000, direccionesEmpleados[0], [carro1]),
-  new Empleado("Camila", 25, 3500000, direccionesEmpleados[1], [carro1]),
-  new Empleado("Merlyn", 29, 4000000, direccionesEmpleados[2], [carro1]),
-  new Empleado("Julian", 30, 5000000, direccionesEmpleados[3], [carro1]),
-  new Empleado("Valentina", 35, 4000000, direccionesEmpleados[4], [carro1]),
-  new Empleado("Jaime", 33, 4300000, direccionesEmpleados[5], [carro1]),
-  new Empleado("Viviana", 27, 3300000, direccionesEmpleados[6], [carro1]),
-  new Empleado("Sebastian", 39, 4500000, direccionesEmpleados[7], [carro1]),
-  new Empleado("Luis", 32, 4100000, direccionesEmpleados[8], [carro1]),
-  new Empleado("Karla", 40, 5000000, direccionesEmpleados[9], [carro1]),
+  new Empleado("Andres", 52, 6000000, direccionesEmpleados[0], [carro1], EstadoCivil.CASADO),
+  new Empleado("Camila", 25, 3500000, direccionesEmpleados[1], [carro1], EstadoCivil.SOLTERO),
+  new Empleado("Merlyn", 29, 4000000, direccionesEmpleados[2], [carro1], EstadoCivil.UNION_LIBRE),
+  new Empleado("Julian", 30, 5000000, direccionesEmpleados[3], [carro1], EstadoCivil.CASADO),
+  new Empleado("Valentina", 35, 4000000, direccionesEmpleados[4], [carro1], EstadoCivil.UNION_LIBRE),
+  new Empleado("Jaime", 33, 4300000, direccionesEmpleados[5], [carro1], EstadoCivil.CASADO),
+  new Empleado("Viviana", 27, 3300000, direccionesEmpleados[6], [carro1], EstadoCivil.SOLTERO),
+  new Empleado("Sebastian", 39, 4500000, direccionesEmpleados[7], [carro1], EstadoCivil.CASADO),
+  new Empleado("Luis", 32, 4100000, direccionesEmpleados[8], [carro1], EstadoCivil.SOLTERO),
+  new Empleado("Karla", 40, 5000000, direccionesEmpleados[9], [carro1], EstadoCivil.CASADO),
 ]
 empleados.forEach(empleado => {empleado.saludar(), empleado.direccion.imprimirCiudad()})
 
