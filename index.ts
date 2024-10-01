@@ -72,3 +72,4 @@ empleados.forEach(empleado => {empleado.saludar(), empleado.direccion.imprimirCi
 
 
 crearPersona();
+
