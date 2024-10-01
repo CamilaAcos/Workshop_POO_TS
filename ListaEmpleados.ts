@@ -1,63 +1,115 @@
 export const listaEmpleados =
-[
-    {
-        "nombre": "Andres",
-        "cargo": "Asistente administrativo",
-        "salario": 2500000  
-    },
-    
-    {
-        "nombre": "Camila",
-        "cargo": "Laboratorio",
-        "salario": 2800000  
-    },
+    [
+        {
+            nombre: 'Hugo',
+            edad: 27,
+            salario: 2500000,
+            dirección: {
+                calle: 121,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["EHM735"]
+        },
 
-    {
-        "nombre": "Merlyn",
-        "cargo": "Laboratorio",
-        "salario": 1500000  
-    },
-
-    {
-        "nombre": "John",
-        "cargo": "Planta",
-        "salario": 1300000  
-    },
-
-    {
-        "nombre": "Valentina",
-        "cargo": "Contadora",
-        "salario": 2500000  
-    },
-
-    {
-        "nombre": "Jaime",
-        "cargo": "Gerencia",
-        "salario": 12500000  
-    },
-
-    {
-        "nombre": "Alex",
-        "cargo": "Direccion ",
-        "salario": 5000000  
-    },
-
-    {
-        "nombre": "Julio",
-        "cargo": "Coordinador",
-        "salario": 4500000  
-    },
-
-    {
-        "nombre": "Lina",
-        "cargo": "Financiera",
-        "salario": 5500000  
-    },
-
-    {
-        "nombre": "Johana",
-        "cargo": "Asistente administrativo",
-        "salario": 2500000  
-    },
-
-]
+        {
+            nombre: 'Andres',
+            edad:30,
+            salario: 5500000,
+            dirección: {
+                calle: 131,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["EHM735"]
+        },
+        {
+            nombre: 'Camila',
+            edad: 23,
+            salario: 2500000,
+            dirección: {
+                calle: 142,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["EHM735"]
+        },
+        {
+            nombre: 'Karla',
+            edad: 27,
+            salario: 2500000,
+            dirección: {
+                calle: 223,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["EHM735"]
+        },
+        {
+            nombre: 'Valentina',
+            edad: 28,
+            salario: 3500000,
+            dirección: {
+                calle: 451,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["EHM735"]
+        },
+        {
+            nombre: 'Lucia',
+            edad: 30,
+            salario: 4500000,
+            dirección: {
+                calle: 421,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["JBQ165"]
+        },
+        {
+            nombre: 'Amalia',
+            edad: 35,
+            salario: 4500000,
+            dirección: {
+                calle: 751,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["JBQ165"]
+        },
+        {
+            nombre: 'Clara',
+            edad: 39,
+            salario: 5500000,
+            dirección: {
+                calle: 421,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["EHM735"]
+        },
+        {
+            nombre: 'Alejandro',
+            edad: 31,
+            salario: 5500000,
+            dirección: {
+                calle: 125,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["EHM735"]
+        },
+        {
+            nombre: 'Juliana',
+            edad: 33,
+            salario: 3500000,
+            dirección: {
+                calle: 147,
+                ciudad: "Barcelona",
+                pais: "España",
+            },
+            vehiculos: ["JBQ165"]
+        },
+       
+    ]
