@@ -26,4 +26,4 @@ export class Persona {
     getedad(): number {
         return this.edad
     }
-}
+} 

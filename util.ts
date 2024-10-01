@@ -29,4 +29,4 @@ export const crearPersona = (): void => {
     personaNueva.saludar(); 
     
     //por que no me funcionó asi?: convertirJsonAPersona(jsonNuevaPersona).saludar
-}
+} 

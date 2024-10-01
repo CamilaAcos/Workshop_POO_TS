@@ -23,4 +23,4 @@ export class Moto extends Vehiculo {
         console.log(`Arrancando la moto ${this.placa}`)
     }
 
-}
+} 

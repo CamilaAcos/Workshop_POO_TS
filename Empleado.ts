@@ -21,4 +21,4 @@ export class Empleado extends Persona {
     override saludar(): void {
         console.log(`Hola ${this.nombre} tu edad es ${this.getedad()} años y el salario es de ${this.salario}`)
     }
-}
+} 
