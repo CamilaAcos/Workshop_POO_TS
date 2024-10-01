@@ -4,7 +4,7 @@
             "nombre": "Hugo",
             "edad": 27,
             "salario": 2500000,
-            "dirección": {
+            "direccion": {
                 "calle": 121,
                 "ciudad": "Barcelona",
                 "pais": "España"
@@ -16,7 +16,7 @@
             "nombre": "Andres",
             "edad":30,
             "salario": 5500000,
-            "dirección": {
+            "direccion": {
                 "calle": 131,
                 "ciudad": "Barcelona",
                 "pais": "España"
@@ -27,7 +27,7 @@
             "nombre": "Camila",
             "edad": 23,
             "salario": 2500000,
-            "dirección": {
+            "direccion": {
                 "calle": 142,
                 "ciudad": "Barcelona",
                 "pais": "España"
@@ -38,7 +38,7 @@
             "nombre": "Karla",
             "edad": 27,
             "salario": 2500000,
-            "dirección": {
+            "direccion": {
                 "calle": 223,
                 "ciudad": "Barcelona",
                 "pais": "España"
@@ -49,7 +49,7 @@
             "nombre": "Valentina",
             "edad": 28,
             "salario": 3500000,
-            "dirección": {
+            "direccion": {
                 "calle": 451,
                 "ciudad": "Barcelona",
                 "pais": "España"
@@ -60,7 +60,7 @@
             "nombre": "Lucia",
             "edad": 30,
             "salario": 4500000,
-            "dirección": {
+            "direccion": {
                 "calle": 421,
                 "ciudad": "Barcelona",
                 "pais": "España"
@@ -71,7 +71,7 @@
             "nombre": "Amalia",
             "edad": 35,
             "salario": 4500000,
-            "dirección": {
+            "direccion": {
                 "calle": 751,
                 "ciudad": "Barcelona",
                 "pais": "España"
@@ -82,7 +82,7 @@
             "nombre": "Clara",
             "edad": 39,
             "salario": 5500000,
-            "dirección": {
+            "direccion": {
                 "calle": 421,
                 "ciudad": "Barcelona",
                 "pais": "España"
@@ -93,7 +93,7 @@
             "nombre": "Alejandro",
             "edad": 31,
             "salario": 5500000,
-            "dirección": {
+            "direccion": {
                 "calle": 125,
                 "ciudad": "Barcelona",
                 "pais": "España"
@@ -104,7 +104,7 @@
             "nombre": "Juliana",
             "edad": 33,
             "salario": 3500000,
-            "dirección": {
+            "direccion": {
                 "calle": 147,
                 "ciudad": "Barcelona",
                 "pais": "España"

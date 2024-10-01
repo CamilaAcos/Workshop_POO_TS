@@ -9,12 +9,13 @@ const leerEmpleados = () => {
     const nuevaListaEmpleados = JSON.parse(datosEmpleadosString)
 
     const crearEmpleados = (): Empleado[] => {
-        return nuevaListaEmpleados.map((nuevoEmpleado: any) => {
-            return new Empleado(nuevoEmpleado.nombre, nuevoEmpleado.edad, nuevoEmpleado.salario, nuevoEmpleado.direccion, nuevoEmpleado.vehiculos);
+        return nuevaListaEmpleados.map((nuevoEmpleado2: any) => {
+            return new Empleado(nuevoEmpleado2.nombre, nuevoEmpleado2.edad, nuevoEmpleado2.salario, nuevoEmpleado2.direccion, nuevoEmpleado2.vehiculos);
         })
     }
     
-    const empleadosAjson = JSON.stringify(nuevaListaEmpleados)
+    const empleados2 = crearEmpleados()
+    const empleadosAjson = JSON.stringify(empleados2)
     console.log(empleadosAjson)
 
 }
