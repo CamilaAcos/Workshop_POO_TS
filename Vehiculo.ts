@@ -1,4 +1,4 @@
-abstract class Vehiculo {
+export abstract class Vehiculo {
 
     constructor() { }
 
