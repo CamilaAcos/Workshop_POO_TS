@@ -1,6 +1,6 @@
 export interface Direccion {
-    
-    calle: number 
+
+    calle: number
     ciudad: string
     pais: string
     imprimirCiudad(): void

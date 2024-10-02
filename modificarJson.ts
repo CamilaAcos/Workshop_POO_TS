@@ -13,7 +13,7 @@ const leerEmpleados = () => {
             return new Empleado(nuevoEmpleado2.nombre, nuevoEmpleado2.edad, nuevoEmpleado2.salario, nuevoEmpleado2.direccion, nuevoEmpleado2.vehiculos, nuevoEmpleado2.estadoCivil, nuevoEmpleado2.proyectos);
         })
     }
-    
+
     const empleados2 = crearEmpleados()
     const empleadosAjson = JSON.stringify(empleados2)
     console.log(empleadosAjson)

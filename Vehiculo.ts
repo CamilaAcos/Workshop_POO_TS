@@ -1,6 +1,6 @@
 export abstract class Vehiculo {
 
-    constructor(public placa:string) { }
+    constructor(public placa: string) { }
 
     abstract arrancar(): void;
 

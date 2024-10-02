@@ -7,7 +7,7 @@ export const convertirJsonAPersona = (jsonNuevaPersona: any): Persona => {
     const edad = jsonNuevaPersona.edad
     const direccion = jsonNuevaPersona.direccion
     const vehiculos = jsonNuevaPersona.vehiculos
-    const estadoCivil = jsonNuevaPersona.estadoCivil    
+    const estadoCivil = jsonNuevaPersona.estadoCivil
 
     return new Persona(nombre, edad, direccion, vehiculos, estadoCivil);
 }
@@ -21,12 +21,12 @@ export const crearPersona = (): void => {
             ciudad: "Barcelona",
             pais: "España",
         },
-        vehiculos:["EHM735","JBQ165"],
+        vehiculos: ["EHM735", "JBQ165"],
         EstadoCivil: EstadoCivil.SOLTERO
     }
 
     const personaNueva = convertirJsonAPersona(jsonNuevaPersona);
-    personaNueva.saludar(); 
-    
+    personaNueva.saludar();
+
     //por que no me funcionó asi?: convertirJsonAPersona(jsonNuevaPersona).saludar
 } 

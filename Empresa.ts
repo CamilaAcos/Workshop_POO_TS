@@ -31,12 +31,12 @@ export class Empresa {
         }
     }
 
-    calcularTotalSalarios(): number{
+    calcularTotalSalarios(): number {
         let sumaSalarios = 0
         const totalEmpelados = this.nomina.length
-        for (let i= 0; i< totalEmpelados; i++){
+        for (let i = 0; i < totalEmpelados; i++) {
             const salarioEmp = this.nomina[i].salario
-            sumaSalarios = sumaSalarios + salarioEmp 
+            sumaSalarios = sumaSalarios + salarioEmp
         }
         return sumaSalarios
     }
