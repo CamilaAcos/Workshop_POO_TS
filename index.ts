@@ -6,6 +6,7 @@ import { Vehiculo } from "./Vehiculo"
 import { Coche } from "./Vehiculo"
 import { Moto } from "./Vehiculo"
 import { EstadoCivil } from "./EstadoCivil"
+import { Empresa } from "./Empresa"
 
 
 const direccionesPersonas: Direccion[] = [
@@ -73,4 +74,11 @@ empleados.forEach(empleado => {empleado.saludar(), empleado.direccion.imprimirCi
 
 
 crearPersona();
- 
+
+const direccion11: Direccion = {calle: 201, ciudad:"Berlin", pais: "Alemania", imprimirCiudad() {console.log(`De La ciudad de ${this.ciudad}`)}}
+const empleado11 = new Empleado ("Camilo", 30, 2000000, direccion11, [], EstadoCivil.SOLTERO) 
+
+const empresa1= new Empresa("Frotex", empleados)
+empresa1.agregarEmpleado(empleado11)
+const totalSalarios = empresa1.calcularTotalSalarios()
+console.log(`total de salarios de ${empresa1.nombre} es ${totalSalarios}`)
