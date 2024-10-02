@@ -17,12 +17,21 @@ export class Proyecto {
                 break
             }
         }
-        if (empleadoExiste = false) {
+        if (empleadoExiste === false) {
             this.empleados.push(empleado)
             empleado.asignarProyecto(this)
             console.log(`el empleado ${empleado.nombre} fue assignado al proyecto ${this.nombre}`)
         }
 
+    }
+
+    listarEmpleadosProy(): void {
+        if (this.empleados.length > 0) {
+            console.log(`Empleados del proyecto ${this.nombre}:`)
+            this.empleados.forEach(empleado => { console.log(empleado.nombre) })
+        } else {
+            console.log(`El proyecto ${this.nombre} aun no tiene empleados`)
+        }
     }
 
 }

@@ -9,7 +9,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["EHM735"]
+            "vehiculos": ["EHM735"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         },
 
         {
@@ -21,7 +23,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["EHM735"]
+            "vehiculos": ["EHM735"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         },
         {
             "nombre": "Camila",
@@ -32,7 +36,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["EHM735"]
+            "vehiculos": ["EHM735"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         },
         {
             "nombre": "Karla",
@@ -43,7 +49,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["EHM735"]
+            "vehiculos": ["EHM735"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         },
         {
             "nombre": "Valentina",
@@ -54,7 +62,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["EHM735"]
+            "vehiculos": ["EHM735"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         },
         {
             "nombre": "Lucia",
@@ -65,7 +75,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["JBQ165"]
+            "vehiculos": ["JBQ165"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         },
         {
             "nombre": "Amalia",
@@ -76,7 +88,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["JBQ165"]
+            "vehiculos": ["JBQ165"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         },
         {
             "nombre": "Clara",
@@ -87,7 +101,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["EHM735"]
+            "vehiculos": ["EHM735"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         },
         {
             "nombre": "Alejandro",
@@ -98,7 +114,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["EHM735"]
+            "vehiculos": ["EHM735"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         },
         {
             "nombre": "Juliana",
@@ -109,7 +127,9 @@
                 "ciudad": "Barcelona",
                 "pais": "España"
             },
-            "vehiculos": ["JBQ165"]
+            "vehiculos": ["JBQ165"],
+            "EstadoCivil": "SOLTERO",
+            "proyectos" : []
         }
        
     ]

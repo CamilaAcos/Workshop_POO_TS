@@ -10,7 +10,7 @@ const leerEmpleados = () => {
 
     const crearEmpleados = (): Empleado[] => {
         return nuevaListaEmpleados.map((nuevoEmpleado2: any) => {
-            return new Empleado(nuevoEmpleado2.nombre, nuevoEmpleado2.edad, nuevoEmpleado2.salario, nuevoEmpleado2.direccion, nuevoEmpleado2.vehiculos);
+            return new Empleado(nuevoEmpleado2.nombre, nuevoEmpleado2.edad, nuevoEmpleado2.salario, nuevoEmpleado2.direccion, nuevoEmpleado2.vehiculos, nuevoEmpleado2.estadoCivil, nuevoEmpleado2.proyectos);
         })
     }
     
